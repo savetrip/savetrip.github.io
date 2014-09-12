@@ -1,0 +1,285 @@
+/* Header
+-----------------------------------------------------------------------------*/
+
+.st-header {
+}
+
+/* Site navigation
+-----------------------------------------------------------------------------*/
+
+.st-nav {
+    min-height: 5em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+/* Logo
+-----------------------------------------------------------------------------*/
+
+.st-logo {
+    display: block;
+}
+
+/* lg */
+@media screen and (max-width: 63em) {
+    .st-nav .st-wrapper {
+        width: 305px;
+    }
+}
+
+.st-nav .st-logo {
+    background: url('../images/logo.png') no-repeat;
+    width: 305px;
+    height: 65px;
+    background-size: 100%;
+}
+
+/* PureCSS menu
+-----------------------------------------------------------------------------*/
+
+.pure-menu-fixed {
+    z-index: 99;
+}
+
+.st-pure-menu {
+    font-size: 1.4em;
+    position: absolute;
+    left: -5000px;
+}
+
+/* lg */
+@media screen and (min-width: 64em) {
+    .st-pure-menu {
+        position: inherit;
+        left: inherit;
+    }
+}
+
+.st-pure-menu.pure-menu-horizontal > ul {
+}
+
+.st-pure-menu li:hover,
+.st-pure-menu.pure-menu-horizontal li .pure-menu-children {
+    border: none;
+}
+
+.st-pure-menu a {
+}
+
+.st-pure-menu .pure-menu-heading {
+}
+
+.st-pure-menu .pure-menu-selected {
+    font-weight: 600;
+}
+
+.st-nav .pure-menu,
+.st-pure-menu li a:hover,
+.st-pure-menu li a:focus,
+.st-pure-menu.pure-menu-horizontal li .pure-menu-children,
+.st-pure-menu.pure-menu-horizontal > ul > li:hover,
+.st-pure-menu.pure-menu-horizontal > ul > li:hover > ul > li:hover {
+    background-color: #fff;
+}
+
+.st-pure-menu a,
+.st-pure-menu .pure-menu-heading,
+.st-pure-menu .pure-menu-selected a {
+}
+
+.st-pure-menu a:hover,
+.st-pure-menu a:focus,
+.st-pure-menu .pure-menu-selected a:hover,
+.st-pure-menu .pure-menu-disabled a,
+.st-pure-menu .pure-menu-disabled a:hover {
+    color: rgba(0, 0, 0, 0.95);
+}
+
+/* Content
+-----------------------------------------------------------------------------*/
+
+.st-content {
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.st-footer {
+    color: rgba(255, 255, 255, 0.75);
+    padding: 2em 0 2em 0;
+}
+
+.st-footer .st-logo {
+    background: url('../images/logo_bg.png') no-repeat;
+    width: 240px;
+    height: 51px;
+    background-size: 100%;
+}
+
+.st-footer span.st-pipe {
+    padding: 0 0.6em 0 0.6em;
+}
+
+.st-footer .pure-button,
+.st-footer .pure-input {
+    font-size: 1.1em;
+    height: 2.6em;
+}
+
+.st-footer .st-copy {
+    font-size: 0.9em;
+}
+
+.st-footer .st-menu {
+    text-align: left;
+}
+
+.st-footer a {
+    text-decoration: none;
+}
+
+.st-footer a:hover {
+    color: #ffcb05;
+}
+
+.st-footer a {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* lg */
+@media screen and (max-width: 63em) {
+    .st-footer {
+        font-size: 1.6em;
+    }
+
+    .st-footer .st-logo,
+    .st-social-icons,
+    .st-copy {
+        position: absolute;
+        left: -5000px;
+    }
+
+    .st-footer .st-menu {
+        text-align: center;
+    }
+}
+
+/* Pure buttons
+-----------------------------------------------------------------------------*/
+
+.pure-button,
+.pure-input {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.pure-input {
+    font-size: 1em;
+}
+
+.pure-button {
+    font-size: 1.2em;
+    background-color: #ffcb05;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+/*.st-button-success {*/
+/*background: rgb(28, 184, 65);*/
+/*}*/
+
+/*.st-button-error {*/
+/*background: rgb(202, 60, 60);*/
+/*}*/
+
+/*.st-button-warning {*/
+/*background: rgb(223, 117, 20);*/
+/*}*/
+
+/*.st-button-secondary {*/
+/*background: rgb(66, 184, 221);*/
+/*}*/
+
+/*.st-button-signup {*/
+/*color: rgba(0, 0, 0, 0.6);*/
+/*background: #e3d254;*/
+/*}*/
+
+/*.st-pure-menu a.st-button-signup {*/
+/*color: rgba(0, 0, 0, 0.6);*/
+/*}*/
+
+.b_b3ba2d1dda1f6d3f4aad77831_787fcbffe1 {
+    visibility: hidden;
+    position: absolute;
+    left: -5000px;
+}
+
+/* Vertical align
+-----------------------------------------------------------------------------*/
+
+.st-table {
+    display: table;
+}
+
+.st-vparent {
+    width: 100%;
+    display: table;
+}
+
+.st-vchild {
+    display: table-cell;
+}
+
+.lt-ie8 .st-vchild {
+    display: inline-block;
+}
+
+/* Helpers
+-----------------------------------------------------------------------------*/
+
+.st-border {
+    border: 1px solid chartreuse;
+}
+
+.st-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.st-fleft {
+    float: left;
+}
+
+.st-fright {
+    float: right;
+}
+
+.st-clear-both {
+    clear: both;
+}
+
+.st-left {
+    text-align: left;
+}
+
+.st-center {
+    text-align: center;
+}
+
+.st-right {
+    text-align: right;
+}
+
+.st-top {
+    vertical-align: top;
+}
+
+.st-middle {
+    vertical-align: middle;
+}
+
+.st-bottom {
+    vertical-align: bottom;
+}
+
+.st-upper {
+    text-transform: uppercase;
+}
